@@ -3,6 +3,7 @@ dist/
 
 # generated types
 .astro/
+.vercel/
 
 # dependencies
 node_modules/
@@ -21,3 +22,5 @@ pnpm-debug.log*
 .DS_Store
 
 package-lock.json
+
+astro.config.mjs
