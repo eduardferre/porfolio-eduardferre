@@ -1,10 +1,14 @@
 ---
 import ExperienceItem from './ExperienceItem.astro'
 
+const today = new Date()
+const month = today.toLocaleString('en-US', { month: 'long' })
+const year = today.getFullYear()
+
 const EXPERIENCE = [
   {
     startDate: 'August 2023',
-    endDate: 'August 2024',
+    endDate: `${month} ${year}`,
     title: 'Software Engineer Internship',
     company: 'Giesecke+Devrient',
     description:
